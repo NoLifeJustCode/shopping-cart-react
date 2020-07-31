@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 .cart-item {
   display: inline-flex;
@@ -24,7 +25,8 @@ body {
 .action-icons:hover {
   cursor: pointer;
 }
-.cart {
+.cart{
+  margin: 5px;
   display: flex;
   flex-direction: column;
 }
